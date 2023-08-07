@@ -27,7 +27,7 @@ interface IProduct {
   }
 }
   
-
+console.log('extra')
 export default async function ProductData() {
   const data:IProduct[] = await getProductData()
   console.log(data)
